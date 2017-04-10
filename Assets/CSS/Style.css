@@ -1,0 +1,79 @@
+body {
+	margin: 0px;
+	background-image: url("../Images/ep_naturalwhite/ep_naturalwhite/ep_naturalwhite.png");
+}
+
+#fullHeader {
+	background-color: #ffffff;
+	margin: 0;
+	width: 100%;
+	border-bottom: 3px solid #cccccc;
+}
+
+#headerContainer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#nameBlock {
+	background-color: #4aaaa5;
+	margin: 0px;
+	width: auto;
+	padding: 0px;
+	float: left;
+}
+
+#linkBlock {
+	float: right;
+}
+
+#linkBlock ul li {
+	display: inline;
+	list-style: none;
+}
+
+#container {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+section {
+	width: 650px;
+	float: left;
+	background-color: #dddddd;
+}
+
+section img {
+	float:left;
+}
+
+aside {
+	float: right;
+	width: 270px;
+	text-align: center;
+	background-color: #dddddd;
+}
+
+aside ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+aside ul li {
+	display: inline;
+}
+
+.icon {
+	width: 60px;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+}
