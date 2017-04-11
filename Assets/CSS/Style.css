@@ -8,51 +8,95 @@ body {
 	margin: 0;
 	width: 100%;
 	border-bottom: 3px solid #cccccc;
+	position: initial;
 }
 
 #headerContainer {
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
+	position: relative;
+	display: table;
 }
 
 #nameBlock {
 	background-color: #4aaaa5;
 	margin: 0px;
-	width: auto;
-	padding: 0px;
-	float: left;
+	display: inline-block;
+	padding: 20px;
+	color: #ffffff;
+	font-family: georgia;
 }
 
 #linkBlock {
-	float: right;
+	position: absolute;
+	right: 0;
+	top: 35%;
+	color: #777777;
+	font-family: arial;
+	padding: 0;
+	margin: 0;
+	display: table;
+	text-align: center;
+	vertical-align: middle;
 }
 
-#linkBlock ul li {
+#linkBlock li {
 	display: inline;
 	list-style: none;
+	padding: 10px;
 }
 
 #container {
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
-}
-section {
-	width: 650px;
-	float: left;
-	background-color: #dddddd;
+	margin-top: 40px;
 }
 
+hr {
+	border-color: #dddddd;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section {
+	width: 610px;
+	float: left;
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+	padding: 20px;
+}
+
+article p {
+	color: #777777;
+	font-family: arial;
+}
 section img {
 	float:left;
+	margin: 10px 10px 0px 0px;
+
+}
+
+section h1 {
+	color: #4aaaa5;
+	font-family: georgia;
+	margin-top: 0px;
 }
 
 aside {
 	float: right;
-	width: 270px;
+	width: 230px;
 	text-align: center;
-	background-color: #dddddd;
+	color: #4aaaa5;
+	font-family: georgia;
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+	padding: 20px;
+}
+
+aside h2 {
+	margin-top: 0px;
 }
 
 aside ul {
@@ -76,4 +120,8 @@ footer {
 	bottom: 0;
 	background-color: #666666;
 	border-top: 5px solid #4aaaa5;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 12px;
+	padding: 20px;
 }
