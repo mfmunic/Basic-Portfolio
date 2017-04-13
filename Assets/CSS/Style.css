@@ -1,6 +1,7 @@
 body {
 	margin: 0px;
 	background-image: url("../Images/ep_naturalwhite/ep_naturalwhite/ep_naturalwhite.png");
+	padding-bottom: 500px;
 }
 
 #fullHeader {
@@ -32,8 +33,7 @@ body {
 	position: absolute;
 	right: 0;
 	top: 35%;
-	color: #777777;
-	font-family: arial;
+
 	padding: 0;
 	margin: 0;
 	display: table;
@@ -45,6 +45,27 @@ body {
 	display: inline;
 	list-style: none;
 	padding: 10px;
+}
+
+#activePage {
+	text-decoration: none;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: arial;
+}
+
+#linkBlock li a{
+	text-decoration: none;
+	color: #777777;
+	font-family: arial;
+	transition: .5s;
+}
+
+#linkBlock li a:hover{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	text-shadow: 0 0 2px #4aaaa5;
 }
 
 #container {
@@ -66,6 +87,7 @@ section {
 	background-color: #ffffff;
 	border: 2px solid #dddddd;
 	padding: 20px;
+	margin-bottom: 100px;
 }
 
 article p {
@@ -106,6 +128,10 @@ aside ul {
 
 aside ul li {
 	display: inline;
+}
+
+aside ul li a {
+	text-decoration: none;
 }
 
 .icon {
